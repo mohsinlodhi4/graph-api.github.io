@@ -1,5 +1,5 @@
 <?php
-
+header("Content-Type: text/html; charset=utf-8");
 header("ACCESS-CONTROL-ALLOW-ORIGIN: *");
 header("ACCESS-CONTROL-ALLOW-METHODS: *");
 
