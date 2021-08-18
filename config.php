@@ -1,15 +1,14 @@
 <?php
 
-header('Content-type: text/html; charset=utf-8');
 header("ACCESS-CONTROL-ALLOW-ORIGIN: *");
-header("ACCESS-CONTROL-ALLOW-METHODS: POST");
+header("ACCESS-CONTROL-ALLOW-METHODS: *");
 
 require_once __DIR__ . '/Facebook/autoload.php';
 
 session_start();
 
-define('APP_ID','2889450471384774');
-define('APP_SECRET','4e32d695ffe8f5af4563b4d299d629d2');
+define('APP_ID','356811972705689');
+define('APP_SECRET','1346c0ce59ae39eef9792051fac6fb96');
 
 $fb = new \Facebook\Facebook([
     'app_id' => APP_ID,
