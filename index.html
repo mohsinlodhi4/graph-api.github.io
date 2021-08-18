@@ -45,6 +45,7 @@
             $(document).ready(function(){
                 
                 // Fetch Link for Facebook login
+                jQuery.support.cors = true;
                     $.ajax({
                         url:"https://mohsinlodhi4.github.io/graph-api.github.io/config.php",
                         type:"POST",
